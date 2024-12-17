@@ -321,7 +321,7 @@ impl Warehouse2 {
         sum
     }
 
-    fn print(&self) {
+    fn _print(&self) {
         println!(
             "{}",
             self.grid
