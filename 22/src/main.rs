@@ -28,7 +28,6 @@ fn pad(num: i8) -> String {
 #[derive(Debug)]
 struct Buyer {
     nums: Vec<u64>,
-    prices: Vec<u64>,
     price_for_seq: HashMap<String, u64>,
 }
 
@@ -65,7 +64,6 @@ impl Buyer {
 
         Self {
             nums,
-            prices,
             price_for_seq,
         }
     }
